@@ -8,7 +8,7 @@
 // @updateURL    https://raw.githubusercontent.com/Anzoad/tampermonkey-GPSS-scripts/main/DynamicSurveyPRPO.user.js
 // @downloadURL  https://raw.githubusercontent.com/Anzoad/tampermonkey-GPSS-scripts/main/DynamicSurveyPRPO.user.js
 // @run-at       document-idle
-// @author       
+// @author       anzoad
 // ==/UserScript==
 
 (function () {
