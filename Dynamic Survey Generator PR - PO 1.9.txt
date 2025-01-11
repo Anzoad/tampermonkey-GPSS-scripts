@@ -15,6 +15,11 @@
     'use strict';
 
 //ESTO ES UNA PRUEBAAA
+//ESTO ES UNA PRUEBAAA
+//ESTO ES UNA PRUEBAAA
+//ESTO ES UNA PRUEBAAA
+//ESTO ES UNA PRUEBAAA
+
     window.addEventListener('load', () => {
         let tries = 0;
         const maxTries = 30;
