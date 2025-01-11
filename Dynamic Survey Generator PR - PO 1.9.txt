@@ -1,24 +1,18 @@
 // ==UserScript==
 // @name         Dynamic Survey Generator PR/PO
 // @namespace    http://tampermonkey.net/
-// @version      1.92
+// @version      1.9
 // @description  Dynamic Generator
 // @match        https://amazon.coupahost.com/requisition_headers/*
 // @match        https://amazon.coupahost.com/order_headers/*
-// @updateURL    https://raw.githubusercontent.com/Anzoad/tampermonkey-GPSS-scripts/main/Dynamic%20Survey%20Generator%20PR%20-%20PO%201.9.txt
-// @downloadURL  https://raw.githubusercontent.com/Anzoad/tampermonkey-GPSS-scripts/main/Dynamic%20Survey%20Generator%20PR%20-%20PO%201.9.txt
+// @updateURL    https://raw.githubusercontent.com/Anzoad/tampermonkey-GPSS-scripts/main/DynamicSurveyPRPO.user.js
+// @downloadURL  https://raw.githubusercontent.com/Anzoad/tampermonkey-GPSS-scripts/main/DynamicSurveyPRPO.user.js
 // @run-at       document-idle
-// @author       anzoad
+// @author       
 // ==/UserScript==
 
 (function () {
     'use strict';
-
-//ESTO ES UNA PRUEBAAA
-//ESTO ES UNA PRUEBAAA
-//ESTO ES UNA PRUEBAAA
-//ESTO ES UNA PRUEBAAA
-//ESTO ES UNA PRUEBAAA
 
     window.addEventListener('load', () => {
         let tries = 0;
