@@ -13,12 +13,6 @@
 
 (function () {
     'use strict';
-
-    //PRUEBAAAA
-    //PRUEBAAAA
-    //PRUEBAAAA
-    //PRUEBAAAA
-
     
     window.addEventListener('load', () => {
         let tries = 0;
