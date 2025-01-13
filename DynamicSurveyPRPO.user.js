@@ -12,12 +12,7 @@
 // ==/UserScript==
 
 (function () {
-    'use strict';
-
-    // PRUEBAAA
-    // PRUEBAAA
-    // PRUEBAAA
-    
+    'use strict';   
     window.addEventListener('load', () => {
         let tries = 0;
         const maxTries = 30;
