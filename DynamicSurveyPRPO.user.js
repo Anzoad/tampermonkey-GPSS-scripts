@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Dynamic Survey Generator PR/PO
 // @namespace    http://tampermonkey.net/
-// @version      1.95
+// @version      1.7
 // @description  Dynamic Generator
 // @match        https://amazon.coupahost.com/requisition_headers/*
 // @match        https://amazon.coupahost.com/order_headers/*
