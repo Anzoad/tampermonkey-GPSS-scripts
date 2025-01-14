@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Dynamic Survey Generator PR/PO
 // @namespace    http://tampermonkey.net/
-// @version      1.8
+// @version      1.81
 // @description  Dynamic Generator
 // @match        https://amazon.coupahost.com/requisition_headers/*
 // @match        https://amazon.coupahost.com/order_headers/*
@@ -23,7 +23,6 @@
             tries++;
             console.log(`Intento #${tries}: buscando @gpssbuyeratend...`);
 
-            // Buscar todas las menciones
             const allMentions = document.querySelectorAll('.ApprovalTooltip__mention.s-tt-mention');
             console.log('Cantidad de menciones encontradas:', allMentions.length);
 
@@ -42,7 +41,6 @@
                 console.log('Mención @gpssbuyeratend encontrada. Ejecutando script...');
                 clearInterval(intervalId);
 
-                // Coloca aquí el código principal del script sin modificaciones
                 const pathParts = location.pathname.split('/');
                 const docNumber = pathParts[2];
 
